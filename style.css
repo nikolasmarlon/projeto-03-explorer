@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body, input, button, select, textarea{
+body, input, select, textarea{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -183,4 +183,37 @@ fieldset legend{
 
 .checkbox-wrapper input:focus + label::before{
     outline: 2px solid #121214
+}
+
+footer {
+    background-color: #f0f0f4;
+    height: 136px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+
+    margin-bottom: 100px;
+
+    border-top: 1px solid #d6d6d6;
+
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button{
+    height: 56px;
+    border-radius: 8px;
+    background-color: #04d361;
+
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    border: 0;
+    color: #FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer .button:hover{
+    background-color: #03a54c;
 }
