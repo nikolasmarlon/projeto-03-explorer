@@ -182,7 +182,11 @@ fieldset legend{
 }
 
 .checkbox-wrapper input:focus + label::before{
-    outline: 2px solid #121214
+    outline: 2px solid #121214;
+}
+
+.checkbox-wrapper input:invalid + label::before{
+    outline: 2px solid #ff1010;
 }
 
 footer {
@@ -216,4 +220,8 @@ footer .button{
 
 footer .button:hover{
     background-color: #03a54c;
+}
+
+input:invalid{
+    border: 2px solid #ff1010;
 }
