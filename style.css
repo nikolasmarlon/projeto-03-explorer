@@ -142,6 +142,7 @@ fieldset legend{
 /*sinal de > significa primeiro nível da div*/
 .col-3 > div:nth-child(1){
     width: 100%;
+    
 }
 
 .checkbox-wrapper{
